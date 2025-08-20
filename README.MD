@@ -32,6 +32,9 @@ curl -X GET localhost:8080 -d '{"offset": 0}'
 curl -X GET localhost:8080 -d '{"offset": 1}'
 # {"record":{"value":"TGV0J3MgR28gIzEK","offset":1}}
 
+curl -X GET localhost:8080 -d '{"offset": 1}'
+# {"record":{"value":"TGV0J3MgR28gIzEK","offset":1}}
+
 curl -X GET localhost:8080 -d '{"offset": 3}'
 # {"record":{"value":"TGV0J3MgR28gIzEK","offset":3}}
 ```
